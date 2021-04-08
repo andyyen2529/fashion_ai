@@ -1,4 +1,4 @@
-# step0. python3.8
+# step0. python3.8 ( you can try different python version but maybe need to unlock the version of other packages listed in step 2)
 
 # step 1. install pytorch 
 # https://pytorch.org/get-started/locally/
