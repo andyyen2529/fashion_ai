@@ -164,10 +164,10 @@ print("example: url + without category")
 output = predict("https://bilab.synology.me/smis/brand/reebok/reebok_kxxojml3.png", "url")
 print(output)
 print("example: file + category")
-output = predict("./batch1_images_cut_formal/train/abstract/adidas__hjvbsam.png", "file_name", "Hoodie & Sweatshirt")
+output = predict("./adidas__hjvbsam.png", "file_name", "Hoodie & Sweatshirt")
 print(output)
 print("example: file + without category")
-output = predict("./batch1_images_cut_formal/train/abstract/adidas__hjvbsam.png", "file_name")
+output = predict("./adidas__hjvbsam.png", "file_name")
 print(output)
 
 
