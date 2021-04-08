@@ -18,4 +18,4 @@ Pillow==7.2.0
 
 # step4. unzip models.zip.001 002
 
-# step5. finish
+# step5. finish, run python predict.py in command line!
