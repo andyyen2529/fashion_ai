@@ -2,6 +2,7 @@
 
 # step 1. install pytorch 
 # https://pytorch.org/get-started/locally/
+# you will maybe get a command like this "pip install torch==1.8.1+cpu torchvision==0.9.1+cpu torchaudio===0.8.1 -f https://download.pytorch.org/whl/torch_stable.html" and run it in the command line
 
 # step2. pip install -r REQUIREMENTS.txt 
 opencv-python==4.5.1.48
@@ -11,7 +12,7 @@ efficientnet-pytorch==0.7.0
 torchvision
 Pillow==7.2.0
 
-# step3. change the following path
+# step3. find out the path and change the code in predict.py line 43  (/cv2/data/haarcascade_frontalface_default.xml)
 #    face_cascade = cv2.CascadeClassifier('/home/andyyen2529/.local/lib/python3.6/site-packages/cv2/data/haarcascade_frontalface_default.xml') ## change this
 
 # maybe look like this in windows C:\\Users\\andyy\\anaconda3\\envs\\python38\\Lib\\site-packages\\cv2\\data\\haarcascade_frontalface_default.xml
